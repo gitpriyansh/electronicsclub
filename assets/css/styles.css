@@ -75,6 +75,10 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
+.custom-logo {
+  width: 19px; /* Adjust the width as needed */
+  height: 65px; /* Maintain aspect ratio */
+}
 
 hr {
   box-sizing: content-box;
@@ -143,6 +147,18 @@ strong {
 
 small {
   font-size: 80%;
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+.navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none;
 }
 
 sub,
